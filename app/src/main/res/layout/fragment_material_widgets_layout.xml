@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ffffff"
+              android:clickable="true"
+              android:orientation="vertical">
+
+    <include layout="@layout/title_layout"/>
+
+    <Button
+        android:id="@+id/btn_material_widget"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextInputLayout"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_material_widgets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SwitchCompat+SnackBar+FAB+Shadows+Ripples"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_tab_recycler_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toolbar+TabLayout+RecyclerView+Card"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NavigationView"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_palette"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Palette"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/btn_bottom_sheet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BottomSheet"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
