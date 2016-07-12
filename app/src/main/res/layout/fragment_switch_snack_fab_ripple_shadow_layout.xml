@@ -6,8 +6,6 @@
                 android:layout_height="match_parent">
 
     <LinearLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -47,6 +45,18 @@
             android:shadowColor="#000000"
             android:text="Show SnackBar In Coordinator"
             android:textAllCaps="false"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/ripple_bg"
+            android:clickable="true"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Ripple and Shadow"
+            android:textColor="#ffffff"/>
 
 
     </LinearLayout>
