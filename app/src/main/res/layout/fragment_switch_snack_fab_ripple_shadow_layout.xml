@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/container"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/title_layout"/>
+
+        <android.support.v7.widget.SwitchCompat
+            android:id="@+id/switch_compat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:checked="true"
+            android:text="SwitchCompat"
+            android:textSize="16sp"
+            app:switchPadding="20dp"/>
+
+        <Button
+            android:id="@+id/btn_show_snack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#000000"
+            android:text="Show SnackBar"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_show_snack_with_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#000000"
+            android:text="Show SnackBar With Action"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btn_show_snack_in_coordinator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shadowColor="#000000"
+            android:text="Show SnackBar In Coordinator"
+            android:textAllCaps="false"/>
+
+
+    </LinearLayout>
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/coordinator_layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="16dp"
+            android:clickable="true"
+            android:src="@null"
+            app:backgroundTint="#0091eb"
+            app:fabSize="normal"/>
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

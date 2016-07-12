@@ -2,7 +2,7 @@ package com.chiclam.material;
 
 import android.view.View;
 
-import com.chiclam.material.widget.WidgetFragment;
+import com.chiclam.material.widget.WidgetsFragment;
 
 /**
  * Created by chiclaim on 2016/07/09
@@ -31,7 +31,7 @@ public class MainFragment extends BaseFragment {
         super.onClick(v);
         switch (v.getId()) {
             case R.id.btn_material_widget:
-                addFragment(new WidgetFragment());
+                addFragment(new WidgetsFragment());
                 break;
             case R.id.btn_coordinator_layout:
                 //addFragment(new MyTextViewFragment());

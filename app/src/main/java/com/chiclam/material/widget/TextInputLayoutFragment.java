@@ -20,6 +20,7 @@ public class TextInputLayoutFragment extends BaseFragment {
 
     @Override
     public void initViews(View view) {
+        showTitleBack(view, "TextInputLayout");
         etName = (EditText) view.findViewById(R.id.et_name);
         tilName = (TextInputLayout) view.findViewById(R.id.til_username);
         etName.setOnFocusChangeListener(new View.OnFocusChangeListener() {
