@@ -14,6 +14,7 @@ public class WidgetsFragment extends BaseFragment {
         showTitleBack(view, "MaterialWidgets");
         view.findViewById(R.id.btn_material_widget).setOnClickListener(this);
         view.findViewById(R.id.btn_material_widgets).setOnClickListener(this);
+        view.findViewById(R.id.btn_tab_recycler_card).setOnClickListener(this);
     }
 
     @Override
@@ -32,6 +33,10 @@ public class WidgetsFragment extends BaseFragment {
 
             case R.id.btn_material_widgets:
                 addFragment(new SwitchSnackFBARippleShadowFragment());
+                break;
+
+            case R.id.btn_tab_recycler_card:
+                addFragment(new TabLayoutRecyclerCardFragment());
                 break;
         }
     }

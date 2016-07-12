@@ -36,7 +36,6 @@ public class MainFragment extends BaseFragment {
             case R.id.btn_coordinator_layout:
                 //addFragment(new MyTextViewFragment());
                 break;
-
             case R.id.btn_coordinator_twitter:
                 break;
             case R.id.btn_motion:
