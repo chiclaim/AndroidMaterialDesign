@@ -69,8 +69,18 @@ public abstract class BaseFragment extends Fragment implements View.OnClickListe
                 }
             });
             activity.getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         }
 
+    }
+
+    protected void showHome(View view) {
+        Toolbar toolbar = (Toolbar) view.findViewById(R.id.toolbar);
+        if (toolbar != null) {
+            AppCompatActivity activity = (AppCompatActivity) getActivity();
+            activity.setSupportActionBar(toolbar);
+            activity.getSupportActionBar().setDisplayShowHomeEnabled(true);
+        }
     }
 
     @Override

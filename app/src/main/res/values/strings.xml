@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">AndroidMaterialDesign</string>
+    <string name="titanic_description">A century has sailed by since the luxury steamship RMS Titanic met its catastrophic end in the North Atlantic, plunging two miles to the ocean floor after sideswiping an iceberg during its maiden voyage. Rather than the intended Port of New York, a deep-sea grave became the pride of the White Star Line’s final destination in the early hours of April 15, 1912. More than 1,500 people lost their lives in the disaster. In the decades since her demise, Titanic has inspired countless books and several notable films while continuing to make headlines, particularly since the 1985 discovery of her resting place off the coast of Newfoundland. Meanwhile, her story has entered the public consciousness as a powerful cautionary tale about the perils of human hubris.
+    A century has sailed by since the luxury steamship RMS Titanic met its catastrophic end in the
+    North Atlantic, plunging two miles to the ocean floor after sideswiping an iceberg during its
+    maiden voyage. Rather than the intended Port of New York, a deep-sea grave became the pride of
+    the White Star Line’s final destination in the early hours of April 15, 1912. More than 1,500
+    people lost their lives in the disaster. In the decades since her demise, Titanic has inspired
+    countless books and several notable films while continuing to make headlines, particularly since
+    the 1985 discovery of her resting place off the coast of Newfoundland. Meanwhile, her story has
+    entered the public consciousness as a powerful cautionary tale about the perils of human hubris.
+    </string>
 </resources>

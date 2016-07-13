@@ -15,6 +15,7 @@ public class WidgetsFragment extends BaseFragment {
         view.findViewById(R.id.btn_material_widget).setOnClickListener(this);
         view.findViewById(R.id.btn_material_widgets).setOnClickListener(this);
         view.findViewById(R.id.btn_tab_recycler_card).setOnClickListener(this);
+        view.findViewById(R.id.btn_bottom_sheet).setOnClickListener(this);
     }
 
     @Override
@@ -37,6 +38,10 @@ public class WidgetsFragment extends BaseFragment {
 
             case R.id.btn_tab_recycler_card:
                 addFragment(new TabLayoutRecyclerCardFragment());
+                break;
+
+            case R.id.btn_bottom_sheet:
+                addFragment(new MusicFragment());
                 break;
         }
     }
