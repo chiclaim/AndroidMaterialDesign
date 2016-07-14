@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_search1"
+            android:checked="true"
+            android:icon="@mipmap/ic_search_black"
+            android:title="Search"/>
+
+        <item
+            android:id="@+id/nav_search2"
+            android:checked="true"
+            android:icon="@mipmap/ic_search_black"
+            android:title="Search"/>
+    </group>
+</menu>

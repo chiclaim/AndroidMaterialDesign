@@ -10,4 +10,10 @@
     the 1985 discovery of her resting place off the coast of Newfoundland. Meanwhile, her story has
     entered the public consciousness as a powerful cautionary tale about the perils of human hubris.
     </string>
+
+
+
+
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
 </resources>

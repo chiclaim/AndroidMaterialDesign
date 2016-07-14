@@ -1,5 +1,6 @@
 package com.chiclam.material.widget;
 
+import android.content.Intent;
 import android.view.View;
 
 import com.chiclam.material.BaseFragment;
@@ -16,6 +17,7 @@ public class WidgetsFragment extends BaseFragment {
         view.findViewById(R.id.btn_material_widgets).setOnClickListener(this);
         view.findViewById(R.id.btn_tab_recycler_card).setOnClickListener(this);
         view.findViewById(R.id.btn_bottom_sheet).setOnClickListener(this);
+        view.findViewById(R.id.btn_navigation).setOnClickListener(this);
     }
 
     @Override
@@ -42,6 +44,10 @@ public class WidgetsFragment extends BaseFragment {
 
             case R.id.btn_bottom_sheet:
                 addFragment(new MusicFragment());
+                break;
+
+            case R.id.btn_navigation:
+                startActivity(new Intent(getActivity(), NavigationActivity.class));
                 break;
         }
     }

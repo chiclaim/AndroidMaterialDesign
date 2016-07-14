@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.chiclam.material.ScrimInsetsFrameLayout
+<android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:fitsSystemWindows="true"
-    app:insetForeground="@color/colorPrimary"
-    tools:context="com.chiclam.material.MainActivity"/>
+    tools:showIn="@layout/activity_main">
+
+    <include layout="@layout/title_layout"/>
+
+</android.support.design.widget.CoordinatorLayout>
+
+
