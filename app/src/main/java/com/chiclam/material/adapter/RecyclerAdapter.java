@@ -45,7 +45,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter {
 
         public ItemViewHolder(View itemView) {
             super(itemView);
-            tvTitle = (TextView) itemView.findViewById(R.id.tv_title);
+            tvTitle = (TextView) itemView.findViewById(R.id.tv_vibrant);
             tvDesc = (TextView) itemView.findViewById(R.id.title_desc);
         }
     }

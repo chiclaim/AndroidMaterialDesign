@@ -17,6 +17,7 @@ public class WidgetsFragment extends BaseFragment {
         view.findViewById(R.id.btn_material_widgets).setOnClickListener(this);
         view.findViewById(R.id.btn_tab_recycler_card).setOnClickListener(this);
         view.findViewById(R.id.btn_bottom_sheet).setOnClickListener(this);
+        view.findViewById(R.id.btn_palette).setOnClickListener(this);
         view.findViewById(R.id.btn_navigation).setOnClickListener(this);
     }
 
@@ -48,6 +49,10 @@ public class WidgetsFragment extends BaseFragment {
 
             case R.id.btn_navigation:
                 startActivity(new Intent(getActivity(), NavigationActivity.class));
+                break;
+
+            case R.id.btn_palette:
+                addFragment(new PaletteFragment());
                 break;
         }
     }

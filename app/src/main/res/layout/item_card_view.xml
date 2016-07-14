@@ -27,7 +27,7 @@
             android:src="@mipmap/ic_launcher"/>
 
         <TextView
-            android:id="@+id/tv_title"
+            android:id="@+id/tv_vibrant"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignTop="@id/iv_icon"
