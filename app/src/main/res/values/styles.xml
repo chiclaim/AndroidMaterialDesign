@@ -17,6 +17,10 @@
 
         <!-- design error color-->
         <item name="textColorError">@color/textColorError</item>
+
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+        <item name="android:textColorSecondary">#ffffff</item>
     </style>
 
     <style name="AppTheme" parent="AppBaseTheme"/>
@@ -62,4 +66,9 @@
         <item name="textAllCaps">true</item>
     </style>
 
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
 </resources>

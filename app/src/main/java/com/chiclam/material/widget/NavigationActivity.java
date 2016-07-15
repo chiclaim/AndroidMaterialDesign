@@ -37,6 +37,7 @@ public class NavigationActivity extends AppCompatActivity {
         toggle = new ActionBarDrawerToggle(this, mDrawerLayout, toolbar, R.string.open_drawer, R.string.close_drawer);
         mDrawerLayout.setDrawerListener(toggle);
         setupDrawerContent(navigationView);
+
     }
 
 

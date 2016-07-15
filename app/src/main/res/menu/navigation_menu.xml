@@ -1,19 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools"
       tools:context="com.">
+
+
+    <!-- Main items -->
     <group android:checkableBehavior="single">
+
 
         <item
             android:id="@+id/nav_search1"
             android:checked="true"
             android:icon="@mipmap/ic_search_black"
-            android:title="Search"/>
+            android:title="Search1"/>
 
         <item
             android:id="@+id/nav_search2"
             android:checked="true"
             android:icon="@mipmap/ic_search_black"
-            android:title="Search"/>
+            android:title="Search2"/>
+
+        <item
+            android:id="@+id/nav_search3"
+            android:icon="@mipmap/ic_search_black"
+            android:title="Search3"
+            app:actionLayout="@layout/menu_action_layout"/>
+        <item
+            android:id="@+id/nav_search4"
+            android:icon="@mipmap/ic_search_black"
+            android:title="Search4"/>
+
+        <item
+            android:id="@+id/nav_search5"
+            android:icon="@mipmap/ic_search_black"
+            android:title="Search5"
+            android:visible="false"/>
+
+    </group>
+
+    <item
+        android:id="@+id/navigation_subheader"
+        android:title="SubHeader">
+        <menu>
+            <item
+                android:id="@+id/nav_search6"
+                android:checked="true"
+                android:icon="@mipmap/ic_search_black"
+                android:title="Search6"/>
+
+            <item
+                android:id="@+id/nav_search7"
+                android:checked="true"
+                android:icon="@mipmap/ic_search_black"
+                android:title="Search7"/>
+        </menu>
+    </item>
+
+    <group android:id="@+id/aligned_items">
+
+        <item
+            android:id="@+id/nav_search8"
+            android:icon="@mipmap/ic_search_black"
+            android:title="Search8"/>
+
+
+        <item
+            android:id="@+id/nav_search9"
+            android:icon="@mipmap/ic_search_black"
+            android:title="Search9"/>
     </group>
 </menu>

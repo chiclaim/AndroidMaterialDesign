@@ -59,6 +59,8 @@
                 android:layout_margin="10dp"
                 app:counterEnabled="true"
                 app:counterMaxLength="50"
+                app:counterTextAppearance="@style/CounterAppearance"
+                app:counterOverflowTextAppearance="@style/CounterOverflowAppearance"
                 app:errorEnabled="true">
 
                 <EditText
