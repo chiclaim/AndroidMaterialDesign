@@ -19,6 +19,10 @@
         <activity
             android:name=".widget.NavigationActivity"
             android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".widget.UserProfileActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

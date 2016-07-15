@@ -1,7 +1,9 @@
 package com.chiclam.material;
 
+import android.content.Intent;
 import android.view.View;
 
+import com.chiclam.material.widget.UserProfileActivity;
 import com.chiclam.material.widget.WidgetsFragment;
 
 /**
@@ -37,6 +39,7 @@ public class MainFragment extends BaseFragment {
                 //addFragment(new MyTextViewFragment());
                 break;
             case R.id.btn_coordinator_twitter:
+                startActivity(new Intent(getActivity(), UserProfileActivity.class));
                 break;
             case R.id.btn_motion:
                 break;

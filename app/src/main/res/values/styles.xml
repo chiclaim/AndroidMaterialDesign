@@ -71,4 +71,16 @@
         <item name="spinBars">true</item>
         <item name="color">@android:color/white</item>
     </style>
+
+
+    <style name="TabLayout.Profile" parent="Base.TabLayout">
+        <item name="tabSelectedTextColor">#0091eb</item>
+        <item name="tabTextColor">#990091eb</item>
+    </style>
+
+
+    <style name="AppBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#00000000</item>
+        <item name="colorPrimaryDark">#00000000</item>
+    </style>
 </resources>
